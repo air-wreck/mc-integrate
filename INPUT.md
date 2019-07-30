@@ -26,3 +26,5 @@ In[1]:= N[Integrate[Sin[x] + Cos[y], {x, 0, 1}, {y, x^2, x}]]
 Out[1]:= 0.227354
 ```
 
+That's not *too* bad. I'll try to improve it.
+
