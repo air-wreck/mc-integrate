@@ -5,7 +5,7 @@
 ## Usage
 Suppose we want to evaluate the double integral:
 
-<p align="center"><img src="https://rawgit.com/air-wreck/mc-integrate/master/svgs/eee198df84bc3566df657381ec28c3cd.svg?invert_in_darkmode" align=middle width=190.49456415pt height=40.70359755pt/></p>
+<p align="center"><img alt="$$&#10;\int _0 ^1 \int _{x^2} ^x (\sin x + \cos y)\,dy\,dx&#10;$$" src="svgs/eee198df84bc3566df657381ec28c3cd.png" align="middle" width="190.49456415pt" height="40.70359755pt"/></p>
 
 Using `mc-integrate`:
 
@@ -23,4 +23,6 @@ Compare this to Mathematica:
 In[1]:= N[Integrate[Sin[x] + Cos[y], {x, 0, 1}, {y, x^2, x}]]
 Out[1]:= 0.227354
 ```
+
+That's not *too* bad. I'll try to improve it.
 
