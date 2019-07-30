@@ -15,7 +15,7 @@ Using `mc-integrate`:
 >>> import mc_integrate as mc
 >>> import numpy as np
 >>> bounds = [(0,1), (lambda x: x*x, lambda x: x)]
->>> mc.mc_integrate_nd(lambda x,y: np.sin(x) + np.sin(y), bounds, n=50000)
+>>> mc.mc_integrate_nd(lambda x,y: np.sin(x) + np.cos(y), bounds, n=50000)
 0.2278408630640774
 ```
 
