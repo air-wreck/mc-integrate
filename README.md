@@ -5,7 +5,7 @@
 ## Usage
 Suppose we want to evaluate the double integral:
 
-<p align="center"><img src="svgs/c5c0576632db0ee35ee3e94d127f50d9.svg?invert_in_darkmode" align=middle width=187.7549058pt height=40.70359755pt/></p>
+<p align="center"><img src="https://rawgit.com/air-wreck/mc-integrate/master/svgs/eee198df84bc3566df657381ec28c3cd.svg?invert_in_darkmode" align=middle width=190.49456415pt height=40.70359755pt/></p>
 
 Using `mc-integrate`:
 
