@@ -5,7 +5,9 @@
 ## Usage
 Suppose we want to evaluate the double integral:
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:air-wreck/mc-integrate/None/svgs/c5c0576632db0ee35ee3e94d127f50d9.svg?invert_in_darkmode" align=middle width=187.7549058pt height=40.70359755pt/></p>
+$$
+\int _0 ^1 \int _{x^2} ^x (\sin x + \cos y) dy\,dx
+$$
 
 Using `mc-integrate`:
 
