@@ -6,7 +6,7 @@
 Suppose we want to evaluate the double integral:
 
 $$
-\int _0 ^1 \int _{x^2} ^x (\sin x + \cos y) dy\,dx
+\int _0 ^1 \int _{x^2} ^x (\sin x + \cos y)\,dy\,dx
 $$
 
 Using `mc-integrate`:
